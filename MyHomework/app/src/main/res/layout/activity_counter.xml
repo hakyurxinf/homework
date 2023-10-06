@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6F69B"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hello, Welcome to the counter activity!"
+        android:textAllCaps="false"
+        android:textColor="#6393E6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_jump3"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="ADD"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btn_jump4"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Reduce"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btn_jump5"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Clear"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textview_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="The current number is "
+        android:textAllCaps="false"
+        android:textColor="#6393E6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
